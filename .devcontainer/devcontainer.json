@@ -1,0 +1,14 @@
+{
+  "name": "java-api-fake",
+  "image": "jhordyess/java",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vscjava.vscode-java-pack", "vmware.vscode-boot-dev-pack"],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
+    }
+  },
+  // "postCreateCommand": "bash config.sh",
+  "remoteUser": "jhordyess"
+}
