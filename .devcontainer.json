@@ -1,6 +1,6 @@
 {
   "name": "java-api-fake",
-  "image": "jhordyess/java",
+  "image": "jhordyess/java:17-3",
   "customizations": {
     "vscode": {
       "extensions": ["vscjava.vscode-java-pack", "vmware.vscode-boot-dev-pack"],
@@ -9,6 +9,5 @@
       }
     }
   },
-  "postCreateCommand": "bash config.sh",
-  "remoteUser": "jhordyess"
+  "postCreateCommand": "mvn install"
 }
