@@ -9,5 +9,5 @@
       }
     }
   },
-  "postCreateCommand": "mvn install"
+  "postCreateCommand": "mvn clean dependency:resolve"
 }
